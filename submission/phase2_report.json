@@ -1,0 +1,30 @@
+{
+  "phase": "2",
+  "environment": {
+    "colab": true
+  },
+  "attention": {
+    "naive_ms": 243.568,
+    "vectorized_ms": 0.993,
+    "speedup": 245.28
+  },
+  "threads": {
+    "1": 2562.528,
+    "2": 2160.708,
+    "4": 2113.507,
+    "8": 2205.57
+  },
+  "devices": {
+    "cpu_ms": 441795.8,
+    "gpu_ms": 13536.6
+  },
+  "training": {
+    "steps": 2000,
+    "final_loss": 1.459,
+    "param_count": 4935680
+  },
+  "sample": "\nWere tell hath did Hark Froming me co:\nI would so he cannotes his disstice;\nThe natural contemselves breful is herelf,\nHaven and Banna's becales, speaking to place.\nFrom minine what is by a foulseing ",
+  "model": {
+    "gcs_url": "https://storage.googleapis.com/project-80597ad9-1ebe-4675-93f-eurecomgpt/model.safetensors"
+  }
+}
